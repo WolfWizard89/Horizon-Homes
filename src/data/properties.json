@@ -1,0 +1,218 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "bath": 1,
+      "price": 750000,
+      "status": "Sale",
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "picture": "HouseImg/1/1.webp",
+      "CarousalImg": [
+        "HouseImg/1/1.webp",
+        "HouseImg/1/2.webp",
+        "HouseImg/1/3.webp",
+        "HouseImg/1/4.webp",
+        "HouseImg/1/5.webp",
+        "HouseImg/1/6.webp",
+        "HouseImg/1/7.webp",
+        "HouseImg/1/8.webp"
+      ],
+      "floorPlan": "HouseImg/1/p1.webp",
+      "url": "properties/prop1.html",
+      "map":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d619.4867747541512!2d-0.26437545898692016!3d51.605857883029174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487616b6c5659b23%3A0xc7dfaddd47cb679!2s67%20Orange%20Hill%20Rd%2C%20Burnt%20Oak%2C%20Edgware%20HA8%200TJ%2C%20UK!5e0!3m2!1sen!2sus!4v1735927525700!5m2!1sen!2sus", 
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "bath": 1,
+      "price": "3999/Mo",
+      "status": "Rent",
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+      "location": "Crofton Road, Orpington BR6",
+      "picture": "HouseImg/2/1.webp",
+      "CarousalImg": [
+        "HouseImg/2/1.webp",
+        "HouseImg/2/2.webp",
+        "HouseImg/2/3.webp",
+        "HouseImg/2/4.webp",
+        "HouseImg/2/5.webp",
+        "HouseImg/2/6.webp",
+        "HouseImg/2/7.webp",
+        "HouseImg/2/8.webp"
+      ],
+      "floorPlan": "HouseImg/2/p2.webp",
+      "url": "properties/prop2.html",
+      "map":"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2477.3915494429593!2d-0.28848992309514554!3d51.61603630276094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTHCsDM2JzU3LjciTiAwwrAxNycwOS4zIlc!5e0!3m2!1sen!2sus!4v1735926791738!5m2!1sen!2sus",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "Flat",
+      "bedrooms": 2,
+      "bath": 1,
+      "price": "1300/Mo",
+      "status": "Rent",
+      "tenure": "Leasehold",
+      "description": "Parking and a Private Terrace.<br>A spacious and modern two-bedroom, two-bathroom apartment, superbly located in Westminster and moments from the River Thames. It features a large open-plan living, kitchen and dining area with sliding doors providing direct access to a sizeable full-width terrace. One private parking space is included with the apartment.Residents benefit from an array of amenities, including a 24-hour concierge, a fully equipped fitness suite and access to an attractive landscaped courtyard garden with water features. The Courthouse is fortunate to be in a superb Westminster location, a short distance from St James' Park and Westminster underground stations.",
+      "location": "Horseferry Road, London SW1",
+      "picture": "HouseImg/3/1.webp",
+      "CarousalImg": [
+        "HouseImg/3/1.webp",
+        "HouseImg/3/2.webp",
+        "HouseImg/3/3.webp",
+        "HouseImg/3/4.webp",
+        "HouseImg/3/5.webp",
+        "HouseImg/3/6.webp",
+        "HouseImg/3/7.webp",
+        "HouseImg/3/8.webp",
+        "HouseImg/3/9.webp"
+      ],
+      "floorPlan": "HouseImg/3/p3.webp",
+      "url": "properties/prop3.html",
+      "map":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d621.0009787814604!2d-0.12907124900436218!3d51.49479564092687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c2b477fefb%3A0xefa18bbdbb9dabc2!2s76%20Horseferry%20Rd%2C%20London%20SW1P%203RD%2C%20UK!5e0!3m2!1sen!2sus!4v1735926926742!5m2!1sen!2sus",
+      "added": {
+        "month": "August",
+        "day": 20,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "Apartment",
+      "bedrooms": 1,
+      "bath": 1,
+      "price": "27500/Mo",
+      "status": "Rent",
+      "tenure": "Leasehold",
+      "description": "This is a beautifully presented purpose-built apartment situated on the 2nd floor of a development close to Blackhorse Road, Walthamstow.<br>The location is perfect for young professionals and commuters, with Blackhorse Road Underground Station being a 10-minute walk away and offering a 20-minute journey time into Central London. The Blackhorse Road area has been undergoing an enormous regeneration project, making this an exciting place to live as there are many creative ventures in the area.",
+      "location": "Park Village East, Regents Park NW1",
+      "picture": "HouseImg/4/1.webp",
+      "CarousalImg": [
+        "HouseImg/4/1.webp",
+        "HouseImg/4/2.webp",
+        "HouseImg/4/3.webp",
+        "HouseImg/4/4.webp",
+        "HouseImg/4/5.webp",
+        "HouseImg/4/6.webp",
+        "HouseImg/4/7.webp",
+        "HouseImg/4/8.webp",
+        "HouseImg/4/9.webp"
+      ],
+      "floorPlan": "HouseImg/4/p4.webp",
+      "url": "properties/prop4.html",
+      "map":"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d619.6702744962462!2d-0.03925773033513442!3d51.59240783140313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTHCsDM1JzMyLjciTiAwwrAwMicxOS4wIlc!5e0!3m2!1sen!2sus!4v1735927039392!5m2!1sen!2sus",
+      "added": {
+        "month": "July",
+        "day": 15,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 1,
+      "bath": 1,
+      "price": 120000,
+      "status": "Sale",
+      "tenure": "Leasehold",
+      "description": "This stunning ground floor garden flat is finished to an exacting standard and features high specification fixtures and fittings throughout.<br>The property is light and bright with generous sized rooms. The internal accommodation comprises, large double bedroom, a beautiful, contemporary kitchen with a range of modern units and integrated appliances, a full width reception room with bi-fold doors over looking the garden and a modern bathroom.",
+      "location": "Glebe Side, Twickenham TW1",
+      "picture": "HouseImg/5/1.webp",
+      "CarousalImg": [
+        "HouseImg/5/1.webp",
+        "HouseImg/5/2.webp",
+        "HouseImg/5/3.webp",
+        "HouseImg/5/4.webp",
+        "HouseImg/5/5.webp",
+        "HouseImg/5/6.webp",
+        "HouseImg/5/7.webp",
+        "HouseImg/5/8.webp"
+      ],
+      "floorPlan": "HouseImg/5/p5.webp",
+      "url": "properties/prop5.html",
+      "map":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d621.5440108558453!2d-0.3350937202406677!3d51.45492416890245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760cf871ad5fc1%3A0xe68fb7d7b731effc!2sA4%20Creative!5e0!3m2!1sen!2sus!4v1735927177609!5m2!1sen!2sus",
+      "added": {
+        "month": "June",
+        "day": 10,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Apartment",
+      "bedrooms": 2,
+      "bath": 1,
+      "price": "45000/Mo",
+      "status": "Rent",
+      "tenure": "Leasehold",
+      "description": "Find My Home presents for sale a lovely property with own patio ideally located between Mornington Crescent and Regents Park. The property is bright, extremely spacious (435 square feet / 40.41 square metres plus a private patio) and benefits from large windows.<br>Set on the raised ground floor the flat comprises an entrance hallway leading to a large room which can accommodate seating area, sleeping area and dining area with a direct access to a lovely South West facing private patio overlooking the communal gardens, a separate fitted kitchen and a bathroom.",
+      "location": "Park Village East, Regents Park NW1",
+      "picture": "HouseImg/6/1.webp",
+      "CarousalImg": [
+        "HouseImg/6/1.webp",
+        "HouseImg/6/2.webp",
+        "HouseImg/6/3.webp",
+        "HouseImg/6/4.webp",
+        "HouseImg/6/5.webp",
+        "HouseImg/6/6.webp",
+        "HouseImg/6/7.webp",
+        "HouseImg/6/8.webp",
+        "HouseImg/6/9.webp"
+      ],
+      "floorPlan": "HouseImg/6/p6.webp",
+      "url": "properties/prop6.html",
+      "map":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d620.4777937480177!2d-0.144037!3d51.53318900000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761adf00e58847%3A0xe518af5e41138922!2s50%20Park%20Village%20E%2C%20London%20NW1%207QH%2C%20UK!5e0!3m2!1sen!2sus!4v1735927291377!5m2!1sen!2sus",
+      "added": {
+        "month": "May",
+        "day": 5,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 3,
+      "bath": 1,
+      "price": 375000,
+      "status": "Sale",
+      "tenure": "Leasehold",
+      "description": "Albans Road in the vibrant area of Seven kings, this charming end-terrace house presents an excellent opportunity for families and professionals alike. Boasting three well-proportioned bedrooms, this property offers ample space for comfortable living. The layout includes a welcoming reception room, perfect for relaxation or entertaining guests.<br>The house features two bathrooms, with a convenient ground floor shower room and a first-floor bathroom, ensuring that morning routines are a breeze for all residents. The potential for both rear and loft extensions (STPP) provides an exciting opportunity to further enhance the living space, allowing you to tailor the home to your specific needs.",
+      "location": "St. Albans Road, Seven Kings, Ilford IG3",
+      "picture": "HouseImg/7/1.webp",
+      "CarousalImg": [
+        "HouseImg/7/1.webp",
+        "HouseImg/7/2.webp",
+        "HouseImg/7/3.webp",
+        "HouseImg/7/4.webp",
+        "HouseImg/7/5.webp",
+        "HouseImg/7/6.webp",
+        "HouseImg/7/7.webp",
+        "HouseImg/7/8.webp",
+        "HouseImg/7/9.webp"
+      ],
+      "floorPlan": "HouseImg/7/p7.webp",
+      "url": "properties/prop7.html",
+      "map":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d620.0048755782516!2d0.09986!3d51.567876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a425fdf6efd1%3A0x956d8215c377884!2s83%20St%20Albans%20Rd%2C%20Ilford%20IG3%208NW%2C%20UK!5e0!3m2!1sen!2sus!4v1735927381939!5m2!1sen!2sus",
+      "added": {
+        "month": "April",
+        "day": 10,
+        "year": 2024
+      }
+    }
+  ]
+}
