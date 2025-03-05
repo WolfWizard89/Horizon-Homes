@@ -1,0 +1,28 @@
+/* Container for search results */
+.search-results {
+  background-color: #f5f5f5; 
+  padding: 1rem; 
+  width: auto; 
+  height: auto; 
+}
+
+/* Styling for title elements */
+.title {
+  color: #815151; 
+}
+
+/* Container for inline elements */
+.inline-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  justify-items: center; 
+  padding: 1rem; 
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .inline-container {
+    flex-direction: column; 
+  }
+}
