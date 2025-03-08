@@ -1,0 +1,165 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Wrapper for the card container */
+.r-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container for the cards */
+.r-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fffcfc;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* Individual card styling */
+.r-card {
+  width: 300px; 
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Hover effect for cards */
+.r-card:hover {
+  transform: scale(1.02); 
+  transition: all 0.3s ease-in-out;
+}
+
+/* Image styling within the card */
+.r-card img {
+  margin-top: -20px;
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for images */
+.r-card img:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Button container within the card */
+.r-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Favorite button styling */
+.fav-button {
+  background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  font-family: "Oxanium", sans-serif;
+  width: 180px;
+}
+
+/* Hover effect for favorite button */
+.fav-button:hover {
+  background: linear-gradient(97.05deg, #2949c6 3.76%, #4066ff 100%);
+  color: white;
+  cursor: pointer;
+}
+
+/* Additional information styling */
+.otherInfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  margin-top: 10px;
+  color: #000000;
+  font-family: "Nunito Sans", serif;
+  font-size: 14px;
+}
+
+/* Important image styling */
+.impImg {
+  color: #3379d4;
+}
+
+/* Price text styling */
+.p-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Roboto Condensed", serif;
+}
+
+/* Property type text styling */
+.p-type {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Jost", serif;
+}
+
+/* Location text styling */
+.p-location {
+  font-size: 15px;
+  font-weight: 500;
+  color: #696969;
+}
+
+/* Description text styling */
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #4b4747;
+  font-family: "Source Sans 3", serif;
+}
+
+/* Reload button container */
+.reload-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Reload button styling */
+.re-button {
+  background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  font-family: "Oxanium", sans-serif;
+  width: 180px;
+}
+
+/* Hover effect for reload button */
+.re-button:hover {
+  background: linear-gradient(97.05deg, #2949c6 3.76%, #4066ff 100%);
+  color: white;
+  cursor: pointer;
+}

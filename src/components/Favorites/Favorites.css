@@ -1,0 +1,149 @@
+/* Wrapper for the favorites section */
+.fav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container for individual favorite items */
+.fav-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: #fffcfc;
+  padding: 10px;
+  border-radius: 15px;
+  height: auto;
+  padding-bottom: 300px;
+  width: 300px;
+  overflow-x: auto;
+}
+
+/* Styling for each favorite card */
+.fav-card {
+  width: 300px; 
+  height: 500px; 
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+}
+
+/* Styling for images inside favorite cards */
+.fav-card img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 5px;
+}
+
+/* Wrapper for the remove button */
+.r-button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the remove button */
+.remove-button {
+  background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  font-family: "Oxanium", sans-serif;
+  width: 180px;
+}
+
+/* Hover effect for the remove button */
+.remove-button:hover {
+  background: linear-gradient(97.05deg, #2949c6 3.76%, #4066ff 100%);
+  color: white;
+  cursor: pointer;
+}
+
+/* Wrapper for the clear button */
+.clear {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2px;
+}
+
+/* Styling for the clear button */
+.clear-button {
+  background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  font-family: "Oxanium", sans-serif;
+  width: 100px;
+}
+
+/* Hover effect for the clear button */
+.clear-button:hover {
+  background: linear-gradient(97.05deg, #2949c6 3.76%, #4066ff 100%);
+  color: white;
+  cursor: pointer;
+}
+
+/* Top section of the favorites container */
+.fav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Additional information section */
+.otherInfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  margin-top: 10px;
+  color: #000000;
+  font-family: "Nunito Sans", serif;
+  font-size: 14px;
+}
+
+/* Styling for important information */
+.impImg {
+  color: #3379d4;
+}
+
+/* Styling for the price text */
+.p-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Roboto Condensed", serif;
+}
+
+/* Styling for the type text */
+.p-type {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Jost", serif;
+}
+
+/* Styling for the location text */
+.p-location {
+  font-size: 15px;
+  font-weight: 500;
+  color: #696969;
+}
