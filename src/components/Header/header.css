@@ -1,0 +1,69 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Playwrite+ES+Deco+Guides&display=swap');
+
+/* Wrapper for the header */
+.h-wrapper {
+  background: #b8c0c4;
+  color: black;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 500;
+}
+
+/* Container for the header content */
+.h-container {
+  justify-content: space-between;
+  padding-top: 1rem;    
+  padding-bottom: 1rem;
+}
+
+/* Menu in the header */
+.h-menu {
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Hover effect for menu items */
+.h-menu>*:hover {
+  color: #164c9a;
+  cursor: pointer;
+}
+
+/* Active state for menu items */
+.h-menu>*:active {
+  color: #012460;
+}
+
+/* Button styling */
+.button {
+  background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  font-family: "Oxanium", sans-serif;
+}
+
+/* Hover effect for button */
+.button:hover {
+  background: linear-gradient(97.05deg, #2949c6 3.76%, #4066ff 100%);
+  color: white;
+}
+
+/* Responsive design for screens with max width of 768px */
+@media screen and (max-width: 768px) {
+  .h-menu {
+    gap: 1rem;
+    justify-content: center;
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  /* Centering image inside the container */
+  .h-container> img {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap");
+
+/* Container for the footer */
+.footer_container {
+  background-color: rgb(168, 210, 250);
+}
+
+/* Styling for the copyright text */
+.copy {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+
+
+/* Container for the logo image */
+.logo-Img {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+/* Styling for the logo image */
+.logo-Img img {
+  width: 150px;
+  height: auto;
+}
+
+/* Styling for the footer slogan */
+.foot-slogan {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1f3e72;
+  font-family: "Birthstone", serif;
+  margin-bottom: 25px;
+}
+
+/* Container for contact information */
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+/* Styling for contact text */
+.contact-txt {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Container for contact icons */
+.contact-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  font-size: 35px;
+}
+
+/* Styling for Facebook icon */
+.facebook {
+  color: blue;
+  cursor: pointer;
+}
+
+/* Styling for Instagram icon */
+.instergram {
+  color: #e4405f;
+  cursor: pointer;
+}
+
+/* Styling for mail icon */
+.mail {
+  color: #ea4335;
+  cursor: pointer;
+}
