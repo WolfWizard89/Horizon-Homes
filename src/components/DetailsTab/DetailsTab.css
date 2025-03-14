@@ -1,0 +1,382 @@
+/* Container for the details tab */
+.details-tab {
+  padding: 1rem;
+}
+
+/* Styling for the heading inside details tab */
+.details-tab h2 {
+  margin-bottom: 1rem;
+}
+
+/* Styling for images inside details tab */
+.details-tab img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styling for paragraphs inside details tab */
+.details-tab p {
+  margin-bottom: 0.5rem;
+}
+
+/* Container for carousel controls */
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* Styling for carousel control buttons */
+.carousel-controls button {
+  background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  font-family: "Oxanium", sans-serif;
+}
+
+/* Hover effect for carousel control buttons */
+.carousel-controls button:hover {
+  background: linear-gradient(97.05deg, #2949c6 3.76%, #4066ff 100%);
+  color: white;
+  cursor: pointer;
+}
+
+/* Container for carousel thumbnails */
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; 
+  padding: 5px; 
+}
+
+/* Style individual thumbnails */
+.carousel .thumb {
+  border: 2px solid transparent; 
+  border-radius: 5px; 
+  transition: all 0.3s ease; 
+}
+
+/* Highlight the selected thumbnail */
+.carousel .thumb.selected {
+  border-color: #007bff; 
+}
+
+/* Add hover effect on thumbnails */
+.carousel .thumb:hover {
+  border-color: #007bff; 
+  cursor: pointer; 
+}
+
+/* Styling for carousel status */
+.carousel .carousel-status {
+  position: absolute; 
+  bottom: 10px; 
+  right: 10px; 
+  color: rgb(67, 123, 145); 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  font-size: 20px; 
+
+}
+
+/* Styling for images inside carousel slides */
+.carousel .slide img {
+  width: 80%; 
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  object-fit: cover; 
+}
+
+/* Optional: Hover effect for images */
+.carousel .slide img:hover {
+  transform: scale(1.05); 
+  transition: all 0.3s ease-in-out;
+}
+
+/* Styling for previous control button */
+.carousel .control-prev {
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect for previous control button */
+.carousel .control-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+/* Styling for next control button */
+.carousel .control-next {
+  right: 10px; 
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect for next control button */
+.carousel .control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+/* Styling for control arrows */
+.carousel .control-arrow {
+  visibility: visible !important;
+  position: absolute; 
+  top: 55%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(700%); 
+  z-index: 2;
+}
+
+/* Styling for previous and next control arrows */
+.carousel .control-prev.control-arrow,
+.carousel .control-next.control-arrow {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); 
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+/* Hover effect for control arrows */
+.carousel .control-arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Styling for price tab */
+.price-tab {
+  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Styling for euro symbol */
+.euro {
+  color: rgb(231, 198, 10);
+}
+
+/* Styling for numerical price */
+.numPrice {
+  color: #000000;
+}
+
+/* Styling for room information */
+.roomInfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Nunito Sans", serif;
+  font-size: 18px;
+}
+
+/* Styling for bath information */
+.bath {
+  display: flex;
+  gap: 5px;
+}
+
+/* Styling for bed information */
+.bed {
+  display: flex;
+  gap: 5px;
+}
+
+/* Styling for image icon */
+.Img {
+  color: #3379d4;
+}
+
+/* Styling for bath text */
+.bath-txt {
+  color: #000000;
+}
+
+/* Styling for location information */
+.location {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  font-family: "Nunito Sans", serif;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Styling for location image icon */
+.locImg {
+  color: #ec0c0c;
+  font-size: 17px;
+}
+
+/* Styling for location text */
+.loc-txt {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* Styling for tenure information */
+.tenure {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  font-family: "Nunito Sans", serif;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Styling for tenure image icon */
+.ten-img {
+  color: brown;
+  font-size: 17px;
+}
+
+/* Styling for tenure text */
+.ten-txt {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* Styling for description section */
+.description1 {
+  display: flex;
+  gap: 20px;
+  color: #333;
+  margin-bottom: 25px;
+  font-family: "Nunito Sans", serif;
+}
+
+/* Styling for description text */
+.des-txt {
+  color: #000000;
+  font-family: "Source Sans 3", serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Styling for date information */
+.date {
+  font-size: 16px;
+  color: #333; 
+  padding: 8px 12px; 
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+/* Styling for date text */
+.date-txt {
+  font-weight: bold; 
+  color: #555; 
+  margin-right: 5px; 
+}
+
+/* Styling for floor information */
+.floor {
+  color: #000000;
+  font-family: "Source Sans 3", serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for map container */
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for map iframe */
+.map iframe {
+  width: 100%; 
+  height: 500px; 
+}
+
+/* Styling for tabs container */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Styling for individual tabs */
+.tab {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for active tab */
+.tab.active {
+  background-color: #0056b3;
+}
+
+/* Hover effect for tabs */
+.tab:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styling for screens with max width of 768px */
+@media (max-width: 768px) {
+  .price-tab {
+    width: 100%;
+  }
+  .roomInfo {
+    font-size: 15px;
+  }
+  .location {
+    font-size: 13px;
+  }
+  .tenure {
+    font-size: 13px;
+  }
+  .description1 {
+    font-size: 13px;
+  }
+  .date {
+    font-size: 14px;
+  }
+  .floor {
+    font-size: 15px;
+  }
+  .map iframe {
+    height: 300px;
+  }
+}
+
+/* Responsive styling for screens with max width of 1000px */
+@media (max-width: 1000px) {
+  .carousel .control-arrow {
+    visibility: hidden !important;
+    position: absolute; 
+  }
+}
